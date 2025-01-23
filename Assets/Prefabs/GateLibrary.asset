@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d5a945030f804988eb05b9ae827f4, type: 3}
+  m_Name: GateLibrary
+  m_EditorClassIdentifier: 
+  gatePrefabs:
+  - gateTypeName: AND
+    prefab: {fileID: 4430762952042210756, guid: 10f0670618363c64ebbebb91120d537b, type: 3}
+  - gateTypeName: OR
+    prefab: {fileID: 7678874806089435029, guid: eef375fb18ed4784b89eb38861ea59a1, type: 3}
+  - gateTypeName: NOT
+    prefab: {fileID: 945378575748424825, guid: 6cbc2d9c89d10ed47af080872952b848, type: 3}
+  - gateTypeName: XOR
+    prefab: {fileID: 612952010599615340, guid: 5ea247477066c5742b90d9238e1721e3, type: 3}
+  - gateTypeName: INPUT
+    prefab: {fileID: 5151694024440443965, guid: b36b3b41cdc66fa4d9babeca2cfded4c, type: 3}
+  - gateTypeName: OUTPUT
+    prefab: {fileID: 1582718765918187580, guid: c930002b51a33f54c96cddab5c020cea, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfdfc9c66e32e641b98437d1a41b39a, type: 3}
+  m_Name: Puzzle 6
+  m_EditorClassIdentifier: 
+  gates:
+  - gateID: A
+    gateType: INPUT
+  - gateID: B
+    gateType: INPUT
+  - gateID: NOT1
+    gateType: NOT
+  - gateID: NOT2
+    gateType: NOT
+  - gateID: AND1
+    gateType: AND
+  - gateID: OUTPUT1
+    gateType: OUTPUT
+  connections:
+  - sourceGateID: A
+    targetGateID: NOT1
+    targetInputIndex: 0
+  - sourceGateID: B
+    targetGateID: NOT2
+    targetInputIndex: 0
+  - sourceGateID: NOT1
+    targetGateID: AND1
+    targetInputIndex: 0
+  - sourceGateID: NOT2
+    targetGateID: AND1
+    targetInputIndex: 1
+  - sourceGateID: AND1
+    targetGateID: OUTPUT1
+    targetInputIndex: 0

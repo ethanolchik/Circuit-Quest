@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bridge
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - bin
   - EndOfPlatform
   - Jump Pad
-  - 
+  - Checkpoint
   - 
   - 
   - 
@@ -40,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Editor
+    uniqueID: 975221039
     locked: 0
